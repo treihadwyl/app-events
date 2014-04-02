@@ -1,12 +1,13 @@
-# Treihadwyl Base Package Scaffold
+# Treihadwyl App Events
 
-> Base module for building component packages
+> An Event Emitter that also namespaces events
 
-## Installation
+## Events
 
-Use [tpm](https://github.com/treihadwyl/tpm) to scaffold a new module.
+### App
 
 ```
-tpm create <?optional-package-name?>
+APP.TICK [ delta ]
 ```
 
+Sends along the elapsed time between ticks
