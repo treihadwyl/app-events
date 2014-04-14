@@ -1,6 +1,6 @@
 {
   "name": "app-events",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Eventing for the whole app",
   "main": "main.js",
   "repository": {
